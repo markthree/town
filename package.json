@@ -1,0 +1,28 @@
+{
+  "name": "town",
+  "version": "0.0.0",
+  "description": "Edit your API online and quickly access it",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "prepare": "nuxt prepare"
+  },
+  "keywords": [
+    "town",
+    "api"
+  ],
+  "bugs": {
+    "email": "1801982702@qq.com",
+    "url": ""
+  },
+  "author": {
+    "email": "1801982702@qq.com",
+    "name": "markthree",
+    "url": "https://github.com/markthree"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nuxt": "^3.3.3"
+  }
+}
