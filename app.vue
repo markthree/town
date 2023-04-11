@@ -1,3 +1,5 @@
 <template>
-    <div>hello</div>
+    <header>
+        town
+    </header>
 </template>

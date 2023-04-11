@@ -2,6 +2,7 @@ export default defineNuxtConfig({
   experimental: {
     crossOriginPrefetch: true,
   },
+  css: ['modern-css-reset'],
   modules: [
     "@unocss/nuxt",
     "@vueuse/nuxt",

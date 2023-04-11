@@ -34,6 +34,9 @@ devDependencies:
   bumpp:
     specifier: ^9.1.0
     version: 9.1.0
+  modern-css-reset:
+    specifier: ^1.4.0
+    version: 1.4.0
   nuxt:
     specifier: ^3.3.3
     version: 3.3.3(@types/node@18.15.11)
@@ -4696,6 +4699,10 @@ packages:
       pathe: 1.1.0
       pkg-types: 1.0.2
       ufo: 1.1.1
+    dev: true
+
+  /modern-css-reset@1.4.0:
+    resolution: {integrity: sha512-0crZmSFmrxkI7159rvQWjpDhy0u4+Awg/iOycJdlVn0RSeft/a+6BrQHR3IqvmdK25sqt0o6Z5Ap7cWgUee2rw==}
     dev: true
 
   /mri@1.2.0:
