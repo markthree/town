@@ -1,6 +1,6 @@
 {
   "name": "town",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Edit your API online and quickly access it",
   "scripts": {
     "dev": "nuxt dev",
