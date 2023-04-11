@@ -6,7 +6,8 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "preview": "nuxt preview",
-    "prepare": "nuxt prepare"
+    "prepare": "nuxt prepare",
+    "release": "bumpp --commit --push --tag"
   },
   "keywords": [
     "town",
@@ -33,6 +34,7 @@
     "@unocss/preset-icons": "^0.51.3",
     "@vueuse/core": "^9.13.0",
     "@vueuse/nuxt": "^9.13.0",
+    "bumpp": "^9.1.0",
     "nuxt": "^3.3.3",
     "nuxt-simple-sitemap": "^2.4.8"
   }

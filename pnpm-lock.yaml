@@ -31,6 +31,9 @@ devDependencies:
   '@vueuse/nuxt':
     specifier: ^9.13.0
     version: 9.13.0(nuxt@3.3.3)(vue@3.2.47)
+  bumpp:
+    specifier: ^9.1.0
+    version: 9.1.0
   nuxt:
     specifier: ^3.3.3
     version: 3.3.3(@types/node@18.15.11)
@@ -686,6 +689,16 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
+
+  /@jsdevtools/ez-spawn@3.0.4:
+    resolution: {integrity: sha512-f5DRIOZf7wxogefH03RjMPMdBF7ADTWUMoOs9kaJo06EfwF+aFhMZMDZxHg/Xe12hptN9xoZjGso2fdjapBRIA==}
+    engines: {node: '>=10'}
+    dependencies:
+      call-me-maybe: 1.0.2
+      cross-spawn: 7.0.3
+      string-argv: 0.3.1
+      type-detect: 4.0.8
     dev: true
 
   /@mapbox/node-pre-gyp@1.0.10:
@@ -2284,6 +2297,21 @@ packages:
       semver: 7.4.0
     dev: true
 
+  /bumpp@9.1.0:
+    resolution: {integrity: sha512-m3+YD8uoa0VttG+RV4oKr3lK60gkUn1yPDaBTFwT7xrdJUsy7Jm0VYgx457HI3VPAOX8szLmy1x2y1QcvB+M8Q==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      '@jsdevtools/ez-spawn': 3.0.4
+      c12: 1.2.0
+      cac: 6.7.14
+      fast-glob: 3.2.12
+      prompts: 2.4.2
+      semver: 7.4.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /c12@1.2.0:
     resolution: {integrity: sha512-CMznkE0LpNEuD8ILp5QvsQVP+YvcpJnrI/zFeFnosU2PyDtx1wT7tXfZ8S3Tl3l9MTTXbKeuhDYKwgvnAPOx3w==}
     dependencies:
@@ -2356,6 +2384,10 @@ packages:
     dependencies:
       function-bind: 1.1.1
       get-intrinsic: 1.2.0
+    dev: true
+
+  /call-me-maybe@1.0.2:
+    resolution: {integrity: sha512-HpX65o1Hnr9HH25ojC1YGs7HCQLq0GCOibSaWER0eNpgJ/Z1MZv2mTc7+xh6WOPxbRVcmgbv4hGU+uSQ/2xFZQ==}
     dev: true
 
   /camelcase@6.3.0:
@@ -6248,6 +6280,11 @@ packages:
       internal-slot: 1.0.5
     dev: true
 
+  /string-argv@0.3.1:
+    resolution: {integrity: sha512-a1uQGz7IyVy9YwhqjZIZu1c8JO8dNIe20xBmSS6qu9kv++k3JGzCVmprbNN5Kn+BgzD5E7YYwg1CcjuJMRNsvg==}
+    engines: {node: '>=0.6.19'}
+    dev: true
+
   /string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
     engines: {node: '>=8'}
@@ -6512,6 +6549,11 @@ packages:
     transitivePeerDependencies:
       - bluebird
       - supports-color
+    dev: true
+
+  /type-detect@4.0.8:
+    resolution: {integrity: sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==}
+    engines: {node: '>=4'}
     dev: true
 
   /type-fest@0.21.3:
