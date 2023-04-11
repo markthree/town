@@ -1,5 +1,5 @@
 <template>
-    <header>
-        town
-    </header>
+    <NuxtLayout>
+        body
+    </NuxtLayout>
 </template>

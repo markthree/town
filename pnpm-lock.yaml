@@ -43,6 +43,9 @@ devDependencies:
   nuxt-simple-sitemap:
     specifier: ^2.4.8
     version: 2.4.8
+  vue-dark-switch:
+    specifier: ^0.5.7
+    version: 0.5.7(vite@4.2.1)(vue@3.2.47)
 
 packages:
 
@@ -7055,6 +7058,17 @@ packages:
     resolution: {integrity: sha512-EfjX+5TTUl70bki9hPuVp+54JiZOvFIfoWBcfXsSwLzKEiDYyHNi5iX8srnqLIv3YRnvxgbntdcG1WPq0MvffQ==}
     dependencies:
       ufo: 1.1.1
+    dev: true
+
+  /vue-dark-switch@0.5.7(vite@4.2.1)(vue@3.2.47):
+    resolution: {integrity: sha512-mIXW6f1l2ri/AwHjPsiIclSnDZWsHVCqDBZ00iFoKJCc0oVB2rbCPfzLYAo762mzrEvAxjQ2Bn8FUt+xOD1urg==}
+    engines: {node: '>=16', pnpm: '>=7.0.0'}
+    peerDependencies:
+      vite: '>=4.0.0'
+      vue: '>=3.0.0'
+    dependencies:
+      vite: 4.2.1(@types/node@18.15.11)
+      vue: 3.2.47
     dev: true
 
   /vue-demi@0.13.11(vue@3.2.47):
