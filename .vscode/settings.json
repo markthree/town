@@ -1,0 +1,13 @@
+{
+	"eslint.packageManager": "yarn",
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"app.config.ts": "LICENSE,nuxt.config.ts,package.json,tsconfig.json,.npmrc"
+	},
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar"
+	}
+}
